@@ -1,0 +1,75 @@
+.form input {
+  font-size: 2rem;
+  border-radius: 10px;
+  outline: none;
+}
+
+.form label {
+  font-size: 2rem;
+  margin-right: 0.5rem;
+  color: grey;
+  font-weight: bold;
+}
+.resultData {
+  margin: 1.5rem 0 0 7rem;
+  width: 25rem;
+  border-radius: 10px;
+  border: 1px solid gray;
+  padding-left: 1.5rem;
+}
+
+.filteredItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 22rem;
+  padding: 1rem;
+}
+.btm {
+  border: none;
+  background-color: white;
+}
+.btm:hover {
+  background-color: rgb(209, 199, 199);
+}
+
+.searchIcon {
+  font-size: 1.5rem;
+  margin: -2rem 0 0 32rem;
+}
+/*-----------------*/
+
+.listItems {
+  display: flex;
+  margin-left: 2rem;
+  width: 50rem;
+  height: 15rem;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: end;
+  align-content: flex-end;
+}
+.listItem {
+  margin-right: 5px;
+  border: 1px solid grey;
+  padding: 0.5rem;
+}
+
+.closeI {
+  padding-bottom: 0.2rem;
+  margin: -1rem -0.5rem 0 0;
+}
+
+/*------------------------*/
+
+.add {
+  width: 4rem;
+  background-color: rgb(80, 80, 224);
+  color: cornsilk;
+  margin: 0.5rem 0 0 7.5rem;
+}
+
+.add:hover {
+  background-color: cornsilk;
+  color: rgb(80, 80, 224);
+}
